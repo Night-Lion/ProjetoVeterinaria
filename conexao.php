@@ -1,13 +1,13 @@
-
 <?php
-    $str = "mysql:host=localhost;dbname=ProjetoVeterinaria;charset=utf8mb4";
+
+    $str = "mysql:host=localhost;dbname=ProjetoVeterinaria";
     $user = "root";
     $pwd = "";
 
-    try {
+    try{
         $con = new PDO($str, $user, $pwd);
-        $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    } catch (PDOException $e) {
-        die("Não foi possível conectar ao banco de dados!");
+    } catch(PDOException $e){
+        die("Não foi possível conectar ao banco!");
     }
+
 ?>
