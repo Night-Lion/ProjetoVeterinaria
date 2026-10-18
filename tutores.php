@@ -77,6 +77,7 @@
                     echo "<p>Telefone: ".$tutor['telefone']."</p>";
                     echo "<p>Endereço: ".$tutor['endereco']."</p>";
                     echo "<a href='excluir_tutor.php?id=".$tutor['id']."' class='btn btn-danger btn-sm'>Excluir</a>";
+                    echo " <a href='editar_tutor.php?id=".$tutor['id']."' class='btn btn-primary btn-sm'>Editar</a>";
                     echo "</div>";
                 }
             ?>
