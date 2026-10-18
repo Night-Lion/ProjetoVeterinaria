@@ -97,6 +97,8 @@
                     echo "<p>Raça: ".$pet['raca']."</p>";
                     echo "<p>Data de nascimento: ".$pet['nascimento']."</p>";
                     echo "<p>Tutor: ".$pet['nome_tutor']."</p>";
+                    echo " <a href='excluir_pet.php?id=".$pet['id']."' class='btn btn-danger btn-sm'>Excluir</a>";
+                    echo "<a href='editar_pet.php?id=".$pet['id']."' class='btn btn-primary btn-sm'>Editar</a>";
                     echo "</div>";
                 }
             ?>
