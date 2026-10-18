@@ -97,6 +97,8 @@
                     echo "<p>Valor: R$ ".$atendimento['valor']."</p>";
                     echo "<p>Data: ".$atendimento['data']."</p>";
                     echo "<p>Animal: ".$atendimento['nome_pet']."</p>";
+                    echo "<a href='editar_atendimento.php?id=".$atendimento['id']."' class='btn btn-primary btn-sm'>Editar</a>";
+                    echo " <a href='excluir_atendimento.php?id=".$atendimento['id']."' class='btn btn-danger btn-sm'>Excluir</a>";
                     echo "</div>";
                 }
             ?>
